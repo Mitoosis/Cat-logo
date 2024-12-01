@@ -84,7 +84,7 @@
 
 /*-------------------------CEPA 1----------------------------*/
 
-.cepa1{
+.cepa1 , .cepa2 , .cepa3 ,.cepa4{
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -92,7 +92,7 @@
     gap: 2%;
 }
 
-.character{
+.character , .character--2 , .character--3, .character--4 {
     height: 80vh;
     width: 50vw;
     /* border: #BFFF00 solid 2px; */
@@ -121,6 +121,7 @@
 }
 
 .part__line{
+    margin: 1% 0;
     border: none;
     height: 3px;
     background-color: #FF9D00;
@@ -191,4 +192,141 @@
 }
 .indica__icon{
     background-color: #FFCC7B;
-}   
+}  
+
+/*--------------------------CEPA 2 ----------------------------*/
+
+.cepa2{
+
+    background-color: #0E000C;
+    color: #ffffff;
+    
+}
+
+.character__img--2{
+    height: 100%;
+    filter: drop-shadow(
+        0 0 10px #FF1C8Ad3
+    );
+    
+}
+
+.part__line--2{
+    margin: 1% 0;
+    border: none;
+    height: 3px;
+    background-color: #FF1C8A;
+}
+
+.line--2{
+    width: 80%;
+    height: 20px;
+    background-color: #FF92C6;
+}
+.line__front--2{
+    width: 50%;
+    height: 20px;
+    background-color: #FF1C8A;
+}
+
+.sativa__icon--2 , .indica__icon--2{
+    height: 20px;
+    width: 20px;
+
+}
+
+.sativa__icon--2{
+    background-color: #FF1C8A;
+}
+.indica__icon--2{
+    background-color: #FF92C6;
+} 
+
+/*----------------------CEPA 3 -----------------------------*/
+
+.character__img--3{
+    height: 100%;
+    filter: drop-shadow(
+        0 0 10px #0077FFd3
+    );
+    
+}
+
+.part__line--3{
+    margin: 1% 0;
+    border: none;
+    height: 3px;
+    background-color: #0077FF;
+}
+
+.line--3{
+    width: 80%;
+    height: 20px;
+    background-color: #63ACFF;
+}
+.line__front--3{
+    width: 80%;
+    height: 20px;
+    background-color: #0077FF;
+}
+
+.sativa__icon--3 , .indica__icon--3{
+    height: 20px;
+    width: 20px;
+
+}
+
+.sativa__icon--3{
+    background-color: #0077FF;
+}
+.indica__icon--3{
+    background-color: #63ACFF;
+} 
+
+
+/*--------------------------------CEPA 4 --------------------------*/
+.cepa4{
+
+    background-color: #0E000C;
+    color: #ffffff;
+    
+}
+
+.character__img--4{
+    height: 100%;
+    filter: drop-shadow(
+        0 0 10px #d3fd00d3
+    );
+    
+}
+
+.part__line--4{
+    margin: 1% 0;
+    border: none;
+    height: 3px;
+    background-color: #d3fd00;
+}
+
+.line--4{
+    width: 80%;
+    height: 20px;
+    background-color: #E8FDBD;
+}
+.line__front--4{
+    width: 65%;
+    height: 20px;
+    background-color: #d3fd00;
+}
+
+.sativa__icon--4 , .indica__icon--4{
+    height: 20px;
+    width: 20px;
+
+}
+
+.sativa__icon--4{
+    background-color: #d3fd00;
+}
+.indica__icon--4{
+    background-color: #E8FDBD;
+} 
