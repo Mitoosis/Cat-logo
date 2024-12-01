@@ -199,15 +199,27 @@ body{
 
 /*-------------------------------------RESPONSIVE-----------------------------*/
 
-@media  screen and (min-width:225px) and (max-width:762px) {
+@media  screen and (min-width:360px) and (max-width:608px) {
     .info__title{
         width: 75%;
     }
     .info__phrase{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .column-gallery{
-        width: 25%;
+        width: 45%;
+    }
+    .info__input{
+        width: 50%;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer__copyright{
+        margin-bottom: 15px;
+        font-size: 0.75em;
+        width: 100vw;
+        text-align: center;
     }
 }
 
