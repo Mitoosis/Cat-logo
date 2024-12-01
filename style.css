@@ -13,9 +13,16 @@
     color: #fff;
     box-sizing: border-box;
     font-family: "Montserrat";
+
+}
+*::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento */
+
 }
 body{
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 /*----------------------------------VEIL----------------------------------*/
 
@@ -25,14 +32,14 @@ body{
     height: 100vh;
     position: absolute;
     z-index: 10; 
-
     animation: opacity 15s infinite ease-out;
 }
 /*----------------------------------GALLERY------------------------------------*/
 
 .gallery{
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -43,7 +50,7 @@ body{
 .column-gallery{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 15%;
 }
 
 .column-gallery__image{
@@ -110,42 +117,32 @@ body{
     justify-content: center;
 
 
-    height: 100%;
+    height: 100vh;
     
 
 }
 
-.home__logo{
-    height: 64px;
-}
 .info{
     display: flex;
     flex-direction: column;align-items: center;
     gap: 20px;
 }
 
-.info__tittle{
-    /* font-size: 7em;
-    font-family: 'Bebas N';
-    line-height: 0.7em; */
+.info__title{
     width: 25%;
 }
 .info__phrase{
     font-family: 'Bebas N';
     font-size: 1.5em;
-
 }
 
 .info__input{
-
-
     border: none;
     height: 25px;
     width: 25%;
     text-align: center;
     color: #000000;
     font-size: 1em;
-    
 }
 
 .info__button{
@@ -202,15 +199,17 @@ body{
 
 /*-------------------------------------RESPONSIVE-----------------------------*/
 
-@media screen and (min-width:1441px) and (max-width:1980px)  {
-
+@media  screen and (min-width:225px) and (max-width:762px) {
+    .info__title{
+        width: 75%;
+    }
+    .info__phrase{
+        font-size: 1.2em;
+    }
     .column-gallery{
-        display: flex;
-        flex-direction: column;
-        width: 300px;
+        width: 25%;
     }
 }
-
 
 
 
