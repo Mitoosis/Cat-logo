@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Bebas N';
-    src: url('../Fonts/Bebas_Neue/BebasNeue-Regular.ttf')format("woff");
+    src: url('Fonts/Bebas_Neue/BebasNeue-Regular.ttf')format("woff");
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url('../Fonts/Montserrat/Montserrat-Regular.woff2')format("woff");
+    src: url('Fonts/Montserrat/Montserrat-Regular.woff2')format("woff");
 }
 
 *{
