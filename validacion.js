@@ -4,7 +4,7 @@ async function validarNickname() {
     const result = await response.json();
 
     if (result.exists) {
-        window.location.href = "../Pages/cepas.html";
+        window.location.href = "Pages/cepas.html";
         // Redirigir o continuar con el flujo
     } else {
         alert("El nickname no existe. Inténtalo de nuevo.");

@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Bebas N';
+    src: url('../Fonts/Bebas_Neue/BebasNeue-Regular.ttf')format("woff");
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fonts/Montserrat/Montserrat-Regular.woff2')format("woff");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+.home{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 15%;
+    height: 20vh;
+    padding-top: 1%;
+
+}
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 50vw;
+    gap: 10%;
+    font-family: 'Bebas N';
+    flex: 1;
+    font-size: 5.2em;
+}
+
+.slogan__1, .slogan__2{
+    padding-left: 20%;
+    line-height: 1em;
+}
+
+.slogan__line{
+    background-color: #BFFF00;
+    height: 2px;
+    border: none;
+}
+.phrase{
+    font-family: 'Montserrat';
+    text-align: end;
+    flex: 1;
+    
+    height: 80vh;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding: 11%;
+}
+.phrase__text1{
+    font-size: 2em;
+}
+.phrase__text2{
+    font-size: 1.21em;
+}
+
+/*-------------------------CEPA 1----------------------------*/
+
+.cepa1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 8% 0 8% 2%;
+    gap: 2%;
+}
+
+.character{
+    height: 80vh;
+    width: 50vw;
+    /* border: #BFFF00 solid 2px; */
+}
+
+
+.character__img{
+    height: 100%;
+    filter: drop-shadow(
+        0 0 10px #ff9d00d3
+    );
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 14%;
+
+}
+
+.part__title{
+    font-family: 'Bebas N';
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.part__line{
+    border: none;
+    height: 3px;
+    background-color: #FF9D00;
+}
+
+.part__paragraph{
+    font-family: 'Montserrat';
+    font-size: 1.3em;
+    padding-right: 3%;
+}
+
+.part2{
+    display: flex;
+    justify-content: start;
+    gap: 30%;
+}
+
+.effects__title , .profiles__title{
+    font-family: 'Bebas N';
+    font-size: 2.5em;
+}
+
+.list{
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-size: 1.3em;
+}
+
+.part3__title{
+    font-family: 'Bebas N';
+    font-size: 2.5em;
+}
+
+.line{
+    width: 80%;
+    height: 20px;
+    background-color: #FFCC7B;
+}
+.line__front{
+    width: 70%;
+    height: 20px;
+    background-color: #DF8900;
+}
+
+.values{
+    display: flex;
+    gap: 15%;
+    margin: 3% 0 3% 0;
+}
+
+.sativa , .indica{
+    width: 15%;
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 1.3em;
+    align-items: center;
+    gap: 10%;
+}
+
+
+.sativa__icon , .indica__icon{
+    height: 20px;
+    width: 20px;
+
+}
+.sativa__icon{
+    background-color: #DF8900;
+}
+.indica__icon{
+    background-color: #FFCC7B;
+}   
