@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url('Fonts/Montserrat/Montserrat-Regular.woff2')format("woff");
+    src: url('../Fonts/Montserrat/Montserrat-Regular.woff2')format("woff");
 }
 *{
     margin: 0;
@@ -330,3 +330,135 @@
 .indica__icon--4{
     background-color: #E8FDBD;
 } 
+
+
+
+/*----------------------------------RESPONSIVE----------------------*/
+
+
+@media  screen and (min-width:360px) and (max-width:608px){
+    .logo{
+        width: 35%;
+        height: 10vh;
+        padding-top: 5%;
+    }
+
+    .content{
+        flex-direction: column;
+        width: 100vw;
+        height: 90vh;
+        align-items: flex-start;
+        justify-content: center;
+
+        gap: 0;
+    }
+
+    .slogan{
+        flex-direction: column;
+        justify-content: center;
+        height: 0vh;
+        width: 70vw;
+        gap: 5%;
+        font-size: 3em;
+        flex: 2;
+    }
+    
+    /* .slogan__1, .slogan__2{
+        padding-left: 20%;
+        line-height: 1em;
+    } */
+    
+    .phrase{
+        font-family: 'Montserrat';
+        text-align: center;
+        flex: 1;
+        width: 100vw;
+
+        flex-direction: column;
+        justify-content: flex-end;
+    
+        padding: 0%;
+        padding-bottom: 10%;
+    }
+    .phrase__text1{
+        font-size: 1.3em;
+    }
+    .phrase__text2{
+        font-size: 0.78em;
+    }
+
+
+
+    /*------------------CEPAS-------------------------------------------*/
+
+    .cepa1 , .cepa2 , .cepa3 ,.cepa4{
+        height: 130vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 2%;
+        gap: 5%;
+    }
+
+    .character , .character--2 , .character--3 , .character--4{
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    .character__img , .character__img--2 , .character__img--3, .character__img--4{
+        height: 100%;
+
+        
+    }
+
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        height: 100vh;
+
+    }
+    
+    .part__title{
+        font-family: 'Bebas N';
+        font-size: 2.4em;
+        line-height: 1em;
+
+    }
+    .part__line , .part__line--2, .part__line--3, .part__line--4{
+        margin: 2% 0;
+    }
+    .part__paragraph , .list{
+        font-size: 1.1em;
+    }
+
+    .effects__title , .profiles__title ,.part3__title{
+        font-family: 'Bebas N';
+        font-size: 2em;
+    }
+
+    .sativa__icon, .sativa__icon--2 ,.sativa__icon--3 , .sativa__icon--4{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+
+    }
+    .indica__icon, .indica__icon--2 ,.indica__icon--3 , .indica__icon--4{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+
+    }
+    .sativa , .indica{
+        width: auto;
+        display: flex;
+        font-family: 'Montserrat';
+        font-size: 1em;
+        gap: 0%;
+    }
+
+}
+
