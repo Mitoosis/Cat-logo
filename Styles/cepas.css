@@ -392,7 +392,7 @@
     /*------------------CEPAS-------------------------------------------*/
 
     .cepa1 , .cepa2 , .cepa3 ,.cepa4{
-        height: 130vh;
+        height: 150vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
