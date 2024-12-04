@@ -336,7 +336,7 @@
 /*----------------------------------RESPONSIVE----------------------*/
 
 
-@media  screen and (min-width:360px) and (max-width:608px){
+@media  screen and (min-width:225px) and (max-width:762px){
     .logo{
         width: 35%;
         height: 10vh;
