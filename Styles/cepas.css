@@ -6,6 +6,10 @@
     font-family: 'Montserrat';
     src: url('../Fonts/Montserrat/Montserrat-Regular.woff2')format("woff");
 }
+
+html{
+    font-size: 16px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -48,12 +52,12 @@
     gap: 10%;
     font-family: 'Bebas N';
     flex: 1;
-    font-size: 5.2em;
+    font-size: 5.2rem;
 }
 
 .slogan__1, .slogan__2{
     padding-left: 20%;
-    line-height: 1em;
+    line-height: 5.5rem;
 }
 
 .slogan__line{
@@ -76,10 +80,10 @@
     padding: 11%;
 }
 .phrase__text1{
-    font-size: 2em;
+    font-size: 2rem;
 }
 .phrase__text2{
-    font-size: 1.21em;
+    font-size: 1.21rem;
 }
 
 /*-------------------------CEPA 1----------------------------*/
@@ -116,8 +120,8 @@
 
 .part__title{
     font-family: 'Bebas N';
-    font-size: 4em;
-    line-height: 1em;
+    font-size: 4rem;
+    line-height: 1rem;
 }
 
 .part__line{
@@ -129,7 +133,7 @@
 
 .part__paragraph{
     font-family: 'Montserrat';
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding-right: 3%;
 }
 
@@ -141,18 +145,18 @@
 
 .effects__title , .profiles__title{
     font-family: 'Bebas N';
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 .list{
     list-style-type: none;
     font-family: 'Montserrat';
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 .part3__title{
     font-family: 'Bebas N';
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 .line{
@@ -176,7 +180,7 @@
     width: 15%;
     display: flex;
     font-family: 'Montserrat';
-    font-size: 1.3em;
+    font-size: 1.3rem;
     align-items: center;
     gap: 10%;
 }
@@ -335,8 +339,7 @@
 
 /*----------------------------------RESPONSIVE----------------------*/
 
-
-@media  screen and (min-width:225px) and (max-width:762px){
+@media  screen and (min-width:320px) and (max-width:768px){
     .logo{
         width: 35%;
         height: 10vh;
@@ -356,17 +359,16 @@
     .slogan{
         flex-direction: column;
         justify-content: center;
-        height: 0vh;
         width: 70vw;
         gap: 5%;
-        font-size: 3em;
+        font-size: 3rem;
         flex: 2;
     }
     
-    /* .slogan__1, .slogan__2{
+   .slogan__1, .slogan__2{
         padding-left: 20%;
-        line-height: 1em;
-    } */
+        line-height: 3.5rem;
+    } 
     
     .phrase{
         font-family: 'Montserrat';
@@ -381,10 +383,10 @@
         padding-bottom: 10%;
     }
     .phrase__text1{
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
     .phrase__text2{
-        font-size: 0.78em;
+        font-size: 0.78rem;
     }
 
 
@@ -392,7 +394,7 @@
     /*------------------CEPAS-------------------------------------------*/
 
     .cepa1 , .cepa2 , .cepa3 ,.cepa4{
-        height: 130vh;
+        height: 140vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -400,6 +402,8 @@
         padding: 2% 2%;
         gap: 5%;
     }
+
+    
 
     .character , .character--2 , .character--3 , .character--4{
         display: flex;
@@ -424,20 +428,20 @@
     
     .part__title{
         font-family: 'Bebas N';
-        font-size: 1.9em;
-        line-height: 1em;
+        font-size: 1.9rem;
+        line-height: 1rem;
 
     }
     .part__line , .part__line--2, .part__line--3, .part__line--4{
         margin: 2% 0;
     }
     .part__paragraph , .list{
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 
     .effects__title , .profiles__title ,.part3__title{
         font-family: 'Bebas N';
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .sativa__icon, .sativa__icon--2 ,.sativa__icon--3 , .sativa__icon--4{
@@ -456,7 +460,7 @@
         width: auto;
         display: flex;
         font-family: 'Montserrat';
-        font-size: 1em;
+        font-size: 1rem;
         gap: 0%;
     }
 
